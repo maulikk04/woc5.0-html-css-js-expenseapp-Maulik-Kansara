@@ -8,71 +8,73 @@
     <title>Expense app</title>
     <link rel="stylesheet" href="home.css">
     <script src="home.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <!-- <form name="frm" method="post" onsubmit="return v()" required> -->
     <h1><strong>EXPENSE APP</strong></h1>
     <table id="t1">
         <td>
             <br>
-            <table style="border: 2px solid;">
+            <table id="t2">
+                <div>
                 <tr style="background-color: rgb(207, 159, 255)">
-                    <th style="text-align: center;" colspan="2"><strong>New Expense</strong></th>
+                    <th style="text-align: center;" colspan="2" class="t5"><strong>New Expense</strong></th>
                 </tr>
-
+            </div>
                 <tr>
                     <tr>
-                        <th style="text-align: right;">Date : </th>
-                        <td><input id="date" type="date" name = "date" style="background-color: lightskyblue"></td>
+                        <th class="t2">Date : </th>
+                        <td><input id="date" type="date" name = "date" class="t21"></td>
                     </tr>
-                    <th style="text-align: right;" >Item : </th>
-                    <td><input id="item" type="text" name="item" style="background-color: lightskyblue"></td>
+                    <th class="t2" >Item : </th>
+                    <td><input id="item" type="text" name="item" class="t21"></td>
                 </tr>
                 <tr>
-                    <th style="text-align: right;">Amount : </th>
-                    <td><input id="amt" type="text" name ="amt" style="background-color: lightskyblue"></td>
+                    <th class="t2">Amount : </th>
+                    <td><input id="amt" type="text" name ="amt" class="t21"></td>
                 </tr>
                
                 <tr>
                     <td>&nbsp;</td>
-                    <td><input type="button" value="Submit" style="background-color: lightskyblue; font-weight: bold; cursor: pointer;" onclick="v()">
-                        <input type="button" value="Reset" style="background-color: lightskyblue;font-weight: bold; cursor: pointer">
+                    <td><input type="button" value="Submit" class="t22" onclick="v()">
+                        <input type="button" value="Reset" class="t22">
                     </td>
                 </tr>
             </table>
         </td>
         <td>
-            <table style="border: 2px solid; width: 150%; border-collapse: collapse;">
+            <table class="t4">
                 <tr>
-                    <th colspan="6" style="background-color: rgb(207, 159, 255);">Expense List</th>
+                    <th colspan="6" style="background-color: rgb(207, 159, 255);" class="t5">Expense List</th>
                 </tr>
-                <tr style="border: 2px solid;margin-top: auto; margin-bottom: auto;">
-                    <th style="border: 1px solid;">Index</th>
-                    <th style="border: 1px solid;">Date</th>
-                    <th style="border: 1px solid;">Item</th>
-                    <th style="border: 1px solid;">Amount</th>
+                <tr class="t3">
+                    <th class="t31">Index</th>
+                    <th class="t31">Date</th>
+                    <th class="t31">Item</th>
+                    <th class="t31">Amount</th>
                     
                 </tr>
-                <tr style="border: 2px solid; margin-top: auto;margin-bottom: auto;">
-                    <td style="text-align: center; border: 1px solid;">&nbsp;</td>
-                    <td style="text-align: center; border: 1px solid;">&nbsp;</td>
-                    <td style="text-align: center; border: 1px solid;">&nbsp;</td>
-                    <td style="text-align: center; border: 1px solid;">&nbsp;</td>
+                <tr class="t3">
+                    <td class="t32">&nbsp;</td>
+                    <td class="t32">&nbsp;</td>
+                    <td class="t32">&nbsp;</td>
+                    <td class="t32">&nbsp;</td>
                 </tr>
-                <tr style="border: 2px solid; margin-top: auto;margin-bottom: auto;">
-                    <td style="text-align: center; border: 1px solid;">&nbsp;</td>
-                    <td style="text-align: center; border: 1px solid;">&nbsp;</td>
-                    <td style="text-align: center; border: 1px solid;">&nbsp;</td>
-                    <td style="text-align: center; border: 1px solid;">&nbsp;</td>
+                <tr class="t3">
+                    <td class="t32">&nbsp;</td>
+                    <td class="t32">&nbsp;</td>
+                    <td class="t32">&nbsp;</td>
+                    <td class="t32">&nbsp;</td>
                 </tr>
-                <tfoot>
-                    <th colspan="19">Total : </th>
-                </tfoot>
+                <tr>
+                    <th colspan="25">Total : </th>
+                </tr>
             </table>
         </td>
     </table>
-    <!-- </form> -->
+    <i class="fas fa-plus"></i>
+  
 </body>
 
 </html>
