@@ -1,0 +1,77 @@
+h1{
+    text-align: center; background-color: blueviolet; 
+     background-image: linear-gradient(to left, #553c9a, #b393d3);
+     text-transform: uppercase;
+     text-shadow: 1px 1px 0px #957dad,
+                  1px 2px 0px #957dad,
+                  1px 3px 0px #957dad,
+                  1px 4px 0px #957dad,
+                  1px 5px 0px #957dad,
+                  1px 6px 0px #957dad,
+                  1px 10px 5px rgba(16, 16, 16, 0.5),
+                  1px 15px 10px rgba(16, 16, 16, 0.4),
+                  1px 20px 30px rgba(16, 16, 16, 0.3),
+                  1px 25px 50px rgba(16, 16, 16, 0.2);
+}
+
+#t1{
+    width: 80%;
+}
+#t2{
+    border-radius: 8px;
+    width: 70%;
+    border: 2px solid;
+    box-shadow: 0 0 20% rgba(0, 0, 0, 0.15);
+}
+.t2{
+    text-align: right; font-style: italic;
+}
+.t21{
+    background-color: lightskyblue; font-style: italic;
+} 
+.t22{
+    background-color: lightskyblue; font-weight: bold; cursor: pointer;
+    border-radius: 3px;
+}
+.t3{
+    border: 2px solid; margin-top: auto;margin-bottom: auto;
+}
+ .t31{
+      border: 1px solid; border-collapse: collapse;
+} 
+.t32{
+    text-align: center; border: 1px solid; border-collapse: collapse;
+}
+.t4{
+    border: 2px solid; width: 150%;
+    border-radius: 8px;
+}
+#elem1,#elem2,#elem3,#elem4,#elem5{
+    border: none;
+    cursor: pointer;
+    background-color: #6e37cc;
+    transition: background-color .3s ease;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    width: -moz-max-content;
+    width: max-content;
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 55px auto 0;
+}
+i{
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: #6e37cc;
+    font-size: xxx-large;
+    cursor: pointer;
+} 
