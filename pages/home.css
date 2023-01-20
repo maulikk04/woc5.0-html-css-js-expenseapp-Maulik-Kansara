@@ -1,77 +1,136 @@
-h1{
-    text-align: center; background-color: blueviolet; 
-     background-image: linear-gradient(to left, #553c9a, #b393d3);
-     text-transform: uppercase;
-     text-shadow: 1px 1px 0px #957dad,
-                  1px 2px 0px #957dad,
-                  1px 3px 0px #957dad,
-                  1px 4px 0px #957dad,
-                  1px 5px 0px #957dad,
-                  1px 6px 0px #957dad,
-                  1px 10px 5px rgba(16, 16, 16, 0.5),
-                  1px 15px 10px rgba(16, 16, 16, 0.4),
-                  1px 20px 30px rgba(16, 16, 16, 0.3),
-                  1px 25px 50px rgba(16, 16, 16, 0.2);
+h1 {
+    text-align: center;
+    background-color: blueviolet;
+    font-size: xx-large;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px #957dad,
+        1px 2px 0px #957dad,
+        1px 3px 0px #957dad,
+        1px 4px 0px #957dad,
+        1px 5px 0px #957dad,
+        1px 6px 0px #957dad,
+        1px 10px 5px rgba(16, 16, 16, 0.5),
+        1px 15px 10px rgba(16, 16, 16, 0.4),
+        1px 20px 30px rgba(16, 16, 16, 0.3),
+        1px 25px 50px rgba(16, 16, 16, 0.2);
 }
 
-#t1{
+.t5 {
+    text-decoration: double;
+    color: #230341;
+    font-size: large;
+    font-family: cursive;
+    text-decoration: wavy;
+
+}
+
+#t1 {
     width: 80%;
 }
-#t2{
+
+#t2 {
     border-radius: 8px;
-    width: 70%;
+    width: 290px;
     border: 2px solid;
     box-shadow: 0 0 20% rgba(0, 0, 0, 0.15);
 }
-.t2{
-    text-align: right; font-style: italic;
+
+.t2 {
+    text-align: right;
+    font-style: italic;
+    font-family: cursive;
+    color: #230341;
 }
-.t21{
-    background-color: lightskyblue; font-style: italic;
-} 
-.t22{
-    background-color: lightskyblue; font-weight: bold; cursor: pointer;
-    border-radius: 3px;
+
+.t31 {
+    font-style: italic;
+    font-family: cursive;
+    color: #230341;
+
+
 }
-.t3{
-    border: 2px solid; margin-top: auto;margin-bottom: auto;
+
+.t21 {
+    background-color: lightskyblue;
+    font-style: italic;
+    box-shadow: 0px 0px 4px #230341;
+
 }
- .t31{
-      border: 1px solid; border-collapse: collapse;
-} 
-.t32{
-    text-align: center; border: 1px solid; border-collapse: collapse;
-}
-.t4{
-    border: 2px solid; width: 150%;
-    border-radius: 8px;
-}
-#elem1,#elem2,#elem3,#elem4,#elem5{
-    border: none;
+
+.t22 {
+    font-weight: bold;
     cursor: pointer;
     background-color: #6e37cc;
     transition: background-color .3s ease;
     border-radius: 8px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 20px;
-    width: -moz-max-content;
-    width: max-content;
     color: #fff;
     font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 20px;
-    margin: 55px auto 0;
+    font-style: italic;
+    font-weight: 100%;
+    width: 45%;
+    box-shadow: 4px 4px 4px #230341;
+
+
 }
-i{
+
+.t31 {
+    border-collapse: collapse;
+    text-decoration: underline;
+    overflow-x: auto;
+}
+
+.t33 {
+    color: #230341;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.t32 {
+    text-align: center;
+    border-collapse: collapse;
+    border: 0;
+    overflow-x: auto;
+}
+
+.t4 {
+    border: 2px solid;
+    width: 550px;
+    float: left;
+    margin-left: 150px;
+    border-radius: 8px;
+    background-color: rgb(207, 159, 255);
+    overflow-x: auto;
+}
+
+#t2 {
+    background-color: rgb(207, 159, 255);
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.d1,
+.d2,
+.d3 {
+    overflow-x: auto;
+}
+
+i {
     align-items: center;
     position: absolute;
-    bottom: 5%;
-    right: 5%;
-    color: #6e37cc;
+    bottom: 6%;
+    right: 6%;
+    color: #240b4f;
     font-size: xxx-large;
     cursor: pointer;
-} 
+    text-shadow: 1px 1px 0px #957dad,
+        1px 2px 0px #957dad,
+        1px 3px 0px #957dad,
+        1px 4px 0px #957dad,
+        1px 5px 0px #957dad,
+        1px 6px 0px #957dad,
+        1px 10px 5px rgba(16, 16, 16, 0.5),
+        1px 15px 10px rgba(16, 16, 16, 0.4),
+        1px 20px 30px rgba(16, 16, 16, 0.3),
+        1px 25px 50px rgba(16, 16, 16, 0.2);
+}
