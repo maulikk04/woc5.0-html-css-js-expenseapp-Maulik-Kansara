@@ -8,73 +8,80 @@
     <title>Expense app</title>
     <link rel="stylesheet" href="home.css">
     <script src="home.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <h1><strong>EXPENSE APP</strong></h1>
-    <table id="t1">
-        <td>
-            <br>
-            <table id="t2">
-                <div>
-                <tr style="background-color: rgb(207, 159, 255)">
-                    <th style="text-align: center;" colspan="2" class="t5"><strong>New Expense</strong></th>
-                </tr>
-            </div>
-                <tr>
-                    <tr>
-                        <th class="t2">Date : </th>
-                        <td><input id="date" type="date" name = "date" class="t21"></td>
-                    </tr>
-                    <th class="t2" >Item : </th>
-                    <td><input id="item" type="text" name="item" class="t21"></td>
-                </tr>
-                <tr>
-                    <th class="t2">Amount : </th>
-                    <td><input id="amt" type="text" name ="amt" class="t21"></td>
-                </tr>
-               
-                <tr>
-                    <td>&nbsp;</td>
-                    <td><input type="button" value="Submit" class="t22" onclick="v()">
-                        <input type="button" value="Reset" class="t22">
-                    </td>
-                </tr>
-            </table>
-        </td>
-        <td>
-            <table class="t4">
-                <tr>
-                    <th colspan="6" style="background-color: rgb(207, 159, 255);" class="t5">Expense List</th>
-                </tr>
-                <tr class="t3">
-                    <th class="t31">Index</th>
-                    <th class="t31">Date</th>
-                    <th class="t31">Item</th>
-                    <th class="t31">Amount</th>
-                    
-                </tr>
-                <tr class="t3">
-                    <td class="t32">&nbsp;</td>
-                    <td class="t32">&nbsp;</td>
-                    <td class="t32">&nbsp;</td>
-                    <td class="t32">&nbsp;</td>
-                </tr>
-                <tr class="t3">
-                    <td class="t32">&nbsp;</td>
-                    <td class="t32">&nbsp;</td>
-                    <td class="t32">&nbsp;</td>
-                    <td class="t32">&nbsp;</td>
-                </tr>
-                <tr>
-                    <th colspan="25">Total : </th>
-                </tr>
-            </table>
-        </td>
-    </table>
-    <i class="fas fa-plus"></i>
-  
+    <div class="d3">
+        <table id="t1">
+            <td>
+                <br>
+                <div class="d1">
+                    <table id="t2">
+                        <div>
+                            <tr class="t51">
+                                <th style="text-align: center;" colspan="2" class="t5"><strong>New Expense</strong></th>
+                            </tr>
+                        </div>
+                        <tr>
+                        <tr>
+                            <th class="t2">Date : </th>
+                            <td><input id="date" type="date" name="date" class="t21"></td>
+                        </tr>
+                        <th class="t2">Item : </th>
+                        <td><input id="item" type="text" name="item" class="t21"></td>
+                        </tr>
+                        <tr>
+                            <th class="t2">Amount : </th>
+                            <td><input id="amt" type="text" name="amt" class="t21"></td>
+                        </tr>
+
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td><input type="button" value="Submit" class="t22" onclick="v()">
+                                <input type="button" value="Reset" class="t22">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+            <td>
+                <div class="d2">
+                    <table class="t4">
+                        <tr>
+                            <th colspan="6" class="t5">Expense List</th>
+                        </tr>
+                        <tr class="t3">
+                            <th class="t31">Index</th>
+                            <th class="t31">Date</th>
+                            <th class="t31">Amount</th>
+                            <th class="t31">Item</th>
+
+                        </tr>
+                        <tr class="t3">
+                            <td class="t32">&nbsp;</td>
+                            <td class="t32">&nbsp;</td>
+                            <td class="t32">&nbsp;</td>
+                            <td class="t32">&nbsp;</td>
+                        </tr>
+                        <tr class="t3">
+                            <td class="t32">&nbsp;</td>
+                            <td class="t32">&nbsp;</td>
+                            <td class="t32">&nbsp;</td>
+                            <td class="t32">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <th class="t33" colspan="3">Total : </th>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+        </table>
+        <i class="fas fa-plus"></i>
+    </div>
 </body>
 
 </html>
