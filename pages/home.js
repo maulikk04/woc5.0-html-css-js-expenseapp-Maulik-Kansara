@@ -9,13 +9,13 @@ function v()
         document.getElementById("date").focus();
         return false;
     }
+    z.setDate("dd/mm/yyyy");
     var x = document.getElementById("item").value
     if (x == "") {
         alert("Enter Item");
         document.getElementById("item").focus();
         return false;
     }
-
     var y = document.getElementById("amt").value
     if (y == "" || isNaN(y)) {
         alert("Enter Amount");
@@ -42,7 +42,7 @@ function v()
      c4.innerHTML = x;
      var c5 = document.getElementById('total');
      c5.innerHTML=total;
-     c5.style.textAlign = "center";
+     c5.style.textAlign = "left";
       r();
     
 
