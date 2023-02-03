@@ -8,6 +8,8 @@
     <title>Expense app</title>
     <link rel="stylesheet" href="home.css">
     <script src="home.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -36,13 +38,13 @@
                         </tr>
                         <tr>
                             <th class="t2">Amount : </th>
-                            <td><input id="amt" type="text" name="amt" class="t21"></td>
+                            <td><input id="amt" type="number" name="amt" class="t21"></td>
                         </tr>
 
                         <tr>
                             <td>&nbsp;</td>
                             <td><input type="button" value="Submit" class="t22" onclick="v()">
-                                <input type="button" value="Reset" class="t22">
+                                <input type="button" value="Reset" class="t22" onclick="r()">
                             </td>
                         </tr>
                     </table>
@@ -50,7 +52,7 @@
             </td>
             <td>
                 <div class="d2">
-                    <table class="t4">
+                    <table class="t4" id="table">
                         <tr>
                             <th colspan="6" class="t5">Expense List</th>
                         </tr>
@@ -61,26 +63,15 @@
                             <th class="t31">Item</th>
 
                         </tr>
-                        <tr class="t3">
-                            <td class="t32">&nbsp;</td>
-                            <td class="t32">&nbsp;</td>
-                            <td class="t32">&nbsp;</td>
-                            <td class="t32">&nbsp;</td>
-                        </tr>
-                        <tr class="t3">
-                            <td class="t32">&nbsp;</td>
-                            <td class="t32">&nbsp;</td>
-                            <td class="t32">&nbsp;</td>
-                            <td class="t32">&nbsp;</td>
-                        </tr>
                         <tr>
-                            <th class="t33" colspan="3">Total : </th>
+                            <th class="t33" colspan="2">Total : </th>
+                            <th id="total"></th>
+
                         </tr>
                     </table>
                 </div>
             </td>
         </table>
-        <i class="fas fa-plus"></i>
     </div>
 </body>
 
